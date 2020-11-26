@@ -13,3 +13,30 @@ body {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, #c7d8e6 100%);
 }
+.card-body p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  color: #495057;
+}
+.card-text .material-icons {
+  font-size: inherit;
+}
+.input-group-prepend span {
+  background-color: #fff;
+}
+.pixabay-logo {
+  width: 24px;
+  height: 24px;
+}
+.my-button-styles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-button-styles.is-hidden {
+  display: none;
+}
+.my-button-styles > .my-spinner-styles.is-hidden {
+  display: none;
+}

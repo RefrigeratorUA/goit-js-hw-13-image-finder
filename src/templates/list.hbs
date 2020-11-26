@@ -1,0 +1,11 @@
+{{#each this}}
+<div class="card">
+    <img src={{webformatURL}} class="card-img-top" alt="{{tags}} image">
+    <div class=" card-body d-flex justify-content-between">
+        <p class="card-text"><i class="material-icons">thumb_up</i>&nbsp;{{likes}}</p>
+        <p class="card-text"><i class="material-icons">visibility</i>&nbsp;{{views}}</p>
+        <p class="card-text"><i class="material-icons">comment</i>&nbsp;{{comments}}</p>
+        <p class="card-text"><i class="material-icons">cloud_download</i>&nbsp;{{downloads}}</p>
+    </div>
+</div>
+{{/each}}
